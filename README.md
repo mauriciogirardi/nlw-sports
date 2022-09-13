@@ -11,7 +11,7 @@
 
 - nlw-sports
   - [web](https://github.com/mauriciogirardi/nlw-sports/tree/main/web)
-  - [mobile]()
+  - [mobile](https://github.com/mauriciogirardi/nlw-sports/tree/main/mobile)
   - [backend](https://github.com/mauriciogirardi/nlw-sports/tree/main/backend)
 
 <img src=".github/capa.png" width="900">
