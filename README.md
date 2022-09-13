@@ -10,7 +10,7 @@
 #### Monorepo
 
 - nlw-sports
-  - [frontend]()
+  - [web](https://github.com/mauriciogirardi/nlw-sports/tree/main/web)
   - [mobile]()
   - [backend](https://github.com/mauriciogirardi/nlw-sports/tree/main/backend)
 
