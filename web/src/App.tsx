@@ -1,8 +1,18 @@
+import "./styles/main.css";
+import logo from "./assets/logo.svg";
+import { DefaultLayout } from "./layout/DefaultLayout";
+import { Footer } from "./components/Footer";
+import { CardGames } from "./components/CarGames";
+import { Title } from "./components/Tiitle";
+
 function App() {
   return (
-    <div>
-      <h1>Home</h1>
-    </div>
+    <DefaultLayout>
+      <img src={logo} />
+      <Title />
+      <CardGames />
+      <Footer />
+    </DefaultLayout>
   );
 }
 
