@@ -1,5 +1,8 @@
+import * as Dialog from "@radix-ui/react-dialog";
+
 import { MagnifyingGlassPlus } from "phosphor-react";
-import { Button } from "./Button";
+
+import { Button } from "./form/Button";
 
 export const Footer = () => {
   return (
@@ -14,7 +17,14 @@ export const Footer = () => {
           </span>
         </div>
 
-        <Button icon={MagnifyingGlassPlus}>Publicar anúncio</Button>
+        <Dialog.Trigger asChild>
+          <Button
+            stylesButton="bg-violet-500 hover:bg-violet-700"
+            icon={MagnifyingGlassPlus}
+          >
+            Publicar anúncio
+          </Button>
+        </Dialog.Trigger>
       </div>
     </footer>
   );
