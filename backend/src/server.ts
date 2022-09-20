@@ -57,7 +57,7 @@ app.post("/games/:id/ads", async (request, response) => {
   const gameId = request.params.id;
   const {
     name,
-    HourEnd,
+    hourEnd,
     hourStart,
     yearsPlaying,
     useVoiceChannel,
@@ -69,7 +69,7 @@ app.post("/games/:id/ads", async (request, response) => {
     data: {
       gameId,
       name,
-      HourEnd: convertHourToMinutes(HourEnd),
+      HourEnd: convertHourToMinutes(hourEnd),
       hourStart: convertHourToMinutes(hourStart),
       yearsPlaying,
       useVoiceChannel,
